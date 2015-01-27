@@ -1,0 +1,613 @@
+@CHARSET "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+a:link{
+	color:black;
+	text-decoration:none;
+}
+
+a:hover{
+	color:blue;
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+#hide{
+	display:none;
+}
+
+#container{
+ position: relative;
+ margin: 0 auto;
+ width: 1000px; 
+}
+
+#header{
+	width:1000px;
+	height: 80px;
+	margin:0 auto;
+	xxbackground-color: #c8c8c8;
+	xxborder: solid 2px;
+	margin-top:10px;
+	position: relative;
+}
+
+#leftmenu {
+	width:190px;
+	xheight:300px;
+	margin:0 auto;
+	xbackground-color: pink;
+	margin-top:10px;
+	xborder: solid 2px;
+	float:left;
+	position: relative;
+	}
+
+
+
+
+#content{
+	width:805px;
+	height:700px;
+	margin:0 auto;
+	xbackground-color: gray;
+	margin-top: 10px;
+	xborder: solid 2px;
+	float:left;
+	position: relative;
+    left: 6px;
+}
+
+#footer{
+	width:1000px;
+	height:100px;
+	margin:0 auto;
+	xbackground-color: yellow;
+	margin-top:10px;
+	border: solid 2px;
+	float:left;
+}
+
+/************ 메인페이지 CSS ******************/
+#main_content,signUp_content{
+	width:1000px;
+	height:500px;
+	margin:0 auto;
+	background-color: lightgreen;
+	margin-top: 10px;
+	border: solid 2px;
+	float:left;
+	position: relative;
+}
+
+#menu1_1_content{
+	width:1000px;
+	height:500px;
+	margin:0 auto;
+	background-color: skyblue;
+	margin-top: 10px;
+	border: solid 2px;
+	float:left;
+	position: relative;
+}
+
+#tagline{
+	position: relative;
+	left: 80px;
+	top: 50px;
+	color: 	#3C5087;
+	font-size: 70px;		
+}
+
+#tagline2{
+
+	position: relative;
+	left: 300px;
+	top: 50px;
+	color: 	#648CFF;
+	font-size: 40px;
+}
+
+
+#demo4{
+	position:absolute;
+	left: 140px;	
+	top: 300px;
+}
+
+#demo4 img {
+	width:350px;
+	height:350px;
+}	
+.scroll-img {	
+	width: 730px;
+	height: 370px;
+	overflow: hidden;
+	font-size: 0;
+}
+.scroll-img ul {
+	width: 700px;
+	height: 600px;
+	margin: 0;
+}
+.scroll-img ul li {
+	display: inline-block;
+	margin: 10px 0 10px 10px;
+}
+#demo4.scroll-img ul{
+	width: 1500px;
+}
+
+#bar_gage{
+	position: absolute;
+	width: 500px;
+	height: 30px;
+	left: 250px;
+	top:230px;
+
+}
+
+#bar_per{
+	font-weight: bold;
+	position: absolute;
+	width: 350px;
+	height: 50px;
+	left: 420px;
+	top: 230px;
+}
+
+
+/************ 메인페이지 CSS 끝******************/
+
+
+/************ 헤더 CSS ******************/
+#top_login{
+	width:1000px;
+	height:20px;
+}
+
+#top_login > span {
+	float:right;
+	padding-left: 10px;
+	text-decoration:none;
+}
+
+#logo{
+	position: relative;
+	width: 80px;
+	height: 80px;
+	top: -30px;
+	left: -10px;
+	xborder: solid 2px;
+}
+
+#logo_name{
+	position: relative;
+	float:left;
+	left: 150px;
+	font-size: 15px;
+	xborder: solid 2px black;
+	
+}
+
+#top_login > span{
+	float:right;
+	padding-top: 8px;
+	padding-right: 10px;
+}
+
+#top_guide{
+	padding: 10px;	
+}
+
+#top_guide > ul{
+	padding-top: 20px;	
+	float:right;
+}
+
+#top_guide > ul  ui{
+	padding-left: 40px;
+}
+
+.dropdown{
+	float:right;
+}
+
+/************ 헤더 CSS 끝******************/
+
+
+/************ 레프트 CSS ******************/
+
+#left_top{
+	background-color: #32AAFF;
+	width: 100%;
+	xheight: 100px;
+	text-align:center;
+	line-height: 3.5;
+	font-size: 28px;
+	color:white;
+}
+
+#left_content div{
+	width: 100%;
+	height: 50px;
+	xbackground-color: red;
+	border: solid 1px gray;
+	text-align:center;
+	line-height: 3;
+	font-size: 15px;
+}
+
+#left_confirm{
+	background-color: gray;
+	color:white;	
+}
+
+
+/************ 레프트 CSS 끝******************/
+
+
+/************ 푸터 CSS ******************/
+#foot_guide{
+	xborder: solid 2px red;
+}
+
+#foot_guide > span{
+	position: relative;
+	top: 10px;
+	left: 100px;
+	xborder: solid 2px red;
+}
+
+/************ 푸터 CSS 끝******************/
+
+
+/************** 회원가입창 div 정렬 ****************/
+
+#join>.form-group{
+	position:relative;
+	text-align: center;
+	padding-top:5px;
+}
+
+#join>.form-group>#id_check{
+	margin-left: 350px;
+	margin-top: -58Px;
+}
+
+#check_id{
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	top: 30px;
+	left: 630px;
+	font-family:'Comic Sans MS';
+	color:#A6A6A6;
+}
+
+#join>.form-group>#overlap_show{
+	margin-left: 500px;
+	margin-top: -47Px;
+	color:#FF4848;
+}
+
+
+#button_div{
+	position:relative;
+	text-align: center;
+	margin-top:25px;
+}
+
+#join>div>input{
+	top:100;
+	right:0;
+	bottom:0;
+	left:0;
+	margin: auto;
+}
+
+#bg{
+	position: absolute;
+	width: 1000px;
+	height: 50px;
+	top: 690px;
+	left:0px;
+}
+
+/*************** 로그인창 div 정렬 **************/
+
+#login>div{
+	position:relative;
+	text-align: center;
+	margin-top:25px;
+}
+
+#login>div>input{
+	top:100;
+	right:0;
+	bottom:0;
+	left:0;
+	margin: auto;
+}
+
+
+/***************홈페이지소개 CSS **************/
+#homepage{
+	width: 805px;
+	height: 500px;
+} 
+
+#homepage > img{
+	width: 100%;	
+	height: 500px;
+}
+ 
+ 
+#history_picture{
+	position: relative;
+	float:left;
+	width: 300px;
+	height:100%;
+	border: solid 2px black;	
+}
+
+#history_article{
+	position: relative;
+	float:left;
+	width: 500px;
+	height:100%;
+	padding-left: 20px;
+}
+
+#history_article  year{
+	font: bold 40px Georgia;
+	color: #00008C;	
+}
+
+#history_article  month{
+	font: 30px Georgia;
+	color: #00008C;	
+}
+
+#history_article writing{
+	font: bold 20px Georgia;
+	padding-left: 20px;
+}
+
+
+/***************홈페이지소개 CSS  끝**************/
+
+/***************제작자소개 CSS **************/
+
+#jd_pic{
+	position:relative;
+	width: 300px;
+	height: 300px;
+	left: 200px;
+	top: -260px;
+}
+
+#jd_pic img{
+	padding: 20px;
+	width: 350px;
+	height: 300px;
+}
+
+#jd_pic span{
+	font-size: 30px;
+	position: absolute;
+	left: 80px;
+	top: 290px;
+}
+
+#jd_graph{
+	position:absolute;
+	width: 500px;
+	height: 400px;
+	left: 500px;
+	top: -260px;
+}
+
+#jd_graph > img{
+	width: 600px;
+	height:400px;
+}
+
+#jd_bottom{
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	top: 140px;
+	left:180px;
+}
+
+
+#jd_gage_name{
+	position:relative;
+	width: 100px;
+	height: 200px;
+	border: 3px solid gray;
+	float: left;
+}
+
+#jd_gage{
+	position:relative;
+	width: 300px;
+	height: 200px;
+	border: 3px solid gray;
+	float: left;
+}
+
+#jd_desc{
+	position:relative;
+	width: 400px;
+	height: 200px;
+	border: 3px solid gray;
+	float: left;
+}
+
+#jd_desc  div{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#jd_gage_name div{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+.jd_desc_n{
+	padding-top:13px;
+}
+
+#cy_pic{
+	position:relative;
+	width: 255px;
+	height: 255px;
+	left: 40px;
+	top: 43px;
+	border: solid 3px #6324BD;
+}
+#cy_profile1{
+	position:relative;
+	font-weight: bold;
+	font-size: 25px;
+	left: 315px;
+	top: -220px;
+}
+#cy_profile2{
+	position:relative;
+	font-weight: bold;
+	font-size: 15px;
+	left: 335px;
+	top: -210px;
+}
+#cy_profile3{
+	position:relative;
+	xposition:absolute;
+	left: 80px;
+	top: -180px;
+}
+#cy_profile4{
+	position:relative;
+	width: 300px;
+	left: 190px;
+	top: -410px;
+}
+#cy_profile5{
+	position:relative;
+	width: 250px;
+	left: 550px;
+	top: -695px;
+}
+#cy_fontSize1{
+  font-size:18px;
+  font-weight:bold;
+  line-height: 28px;
+}
+#cy_table1{
+	border: solid 2px;
+	xpadding:2px;
+	width:320px;
+	height:220px;
+	text-align:center;
+}
+#cy_table_td1{
+	width:80px;
+	font-weight:bold;
+	border: solid 2px;
+	background-color:skyblue;
+}
+#cy_table_td2{
+	width:80px;
+	border: solid 2px;
+	background-color: none;
+}
+
+/***************제작자소개 CSS  끝**************/
+
+/***************커뮤니티 CSS **************/
+#pageing{
+	position: relative;
+	text-align:center; 
+	font-size: 20px;
+	width: 100%;
+	height: 40px;
+
+}
+
+#search_bar{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	left: 100px;
+	float: left;
+}
+
+
+#search_bar2{
+	position: relative;
+	float: left;
+}
+
+#write_button{
+	width: 80px;
+	height: 35px;
+	position: relative;
+	left: 730px;
+}
+
+#write_form{
+	padding: 20px;
+	border:1px solid #aaa;
+}
+
+
+
+#form_name, #form_passwd{
+	width: 200px;
+}
+
+#form_act1, #form_act2{
+	position: relative;
+	float: left;
+}
+
+#form_act2{
+	left: 20px;
+}
+
+#form_act3{
+	position: relative;
+	width: 100%;
+}	
+
+#list_table{
+	padding: 20px;
+}
+
+#comment{
+	font-size: 9px;
+}
+
+#write_button1, #write_button2{
+	position: relative;
+	float:right;
+	top: -25px;
+}
+
+#cmt_button{
+	width:120px;
+	height:50px;
+	position: relative;
+	left: 640px;
+	top:-50px;
+}
+
+
+/***************커뮤니티 CSS  끝**************/
